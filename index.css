@@ -1,0 +1,188 @@
+@media only screen and (min-width:768px)
+{
+#A{
+    background-image: url("./wall4.png");
+    
+    background-size: cover;
+   
+}
+#T{
+   text-align: center;
+}
+#B{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    padding: 30px;
+    gap:100px;
+    
+}
+
+#PJ1{
+    text-align: center;
+    
+}
+#PJ
+{
+    padding: 20px;
+  width: 3cm;
+  border-radius: 150%;
+}
+
+#L{
+    text-align: center;
+    
+}
+#L1
+{
+    padding: 20px;
+  width: 4cm;
+  border-radius: 150%;
+}
+.c{
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    color: white;
+    border-style:solid;
+    border-color: white;
+    border-radius: 15%;
+    text-align: center;
+    height: 13cm;
+    width:8cm;
+    opacity: 75%;
+}
+#RJ{
+    text-align: center;
+    
+}
+#RJ1
+{
+    padding: 35px;
+  width: 4cm;
+  border-radius: 150%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.c:hover{
+ background-color: white;
+ color: black;
+  transform: scale(1.2);
+  transition:ease-in-out;
+  transition: .5s;
+}
+.c{
+    transform: scale(1.0);
+    transition: ease-out;
+    transition-duration: 0.5s;
+}
+.P:hover{
+    transform: scale(1.2);
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+.P{
+    transform: scale(1.0);
+    transition:ease-out;
+    transition-duration: 0.5s;
+}
+}
+@media only screen and (max-width:768px)
+{
+    #A{
+        background-color: black;
+    }
+    #T{
+       text-align: center;
+    }
+    #Title{
+        width:85%;
+    }
+    #B{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        justify-content:space-between;
+    
+        margin: 20px;
+        padding: 30px;
+        gap:100px;
+        
+        
+    }
+    
+    #PJ1{
+        text-align: center;
+        
+    }
+    #PJ
+    {
+        padding: 20px;
+      width: 3cm;
+      border-radius: 150%;
+    }
+    
+    #L{
+        text-align: center;
+        
+    }
+    #L1
+    {
+        padding: 20px;
+      width: 4cm;
+      border-radius: 150%;
+    }
+    .c{
+        display: flex;
+        flex-direction: column;
+        background-color:black;
+        color: white;
+        border-style:solid;
+        border-color: white;
+        border-radius: 15%;
+        text-align: center;
+        height: 13cm;
+        width:8cm;
+    }
+    #RJ{
+        text-align: center;
+        
+    }
+    #RJ1
+    {
+        padding: 35px;
+      width: 4cm;
+      border-radius: 150%;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    .c:hover{
+     background-color: white;
+     color: black;
+      transform: scale(1.1);
+      transition:ease-in-out;
+      transition: .5s;
+    }
+    .c{
+        transform: scale(1.0);
+        transition: ease-out;
+        transition-duration: 0.5s;
+    }
+    .P:hover{
+        transform: scale(1.2);
+        transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+    .P{
+        transform: scale(1.0);
+        transition:ease-out;
+        transition-duration: 0.5s;
+    }
+}
